@@ -1,0 +1,17 @@
+# DO NOT include azure-functions-worker in this file
+# The Python Worker is managed by Azure Functions platform
+# Manually managing azure-functions-worker may cause unexpected issues
+
+
+
+requests==2.25.1
+datetime==4.3
+numpy==1.20.3
+pandas==1.2.4
+SQLAlchemy==1.4.18
+psycopg2==2.8.6
+six==1.15.0
+gspread==4.0.1
+oauth2client==4.1.3
+TikTokApi==4.0.4
+playwright==1.15.0
